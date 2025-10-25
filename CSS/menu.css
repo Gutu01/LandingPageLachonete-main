@@ -59,11 +59,22 @@ i{
     .mobile-nav-list{
         display: flex;
         flex-direction: column;
-        margin: 12px;
+        margin: 55px -35;
         gap: 12px;
+        background-color: orange;
     }
     .mobile-nav-list, .nav-item{
         list-style: none;
         text-align: center;
+    }
+    .nav-item a{
+        color: var(--color-neutra-2);
+    }
+    .nav-item:hover{
+        background-color: aliceblue;
+        opacity: .3;
+    }
+    .nav-item a:hover{
+        color: red;
     }
 }
